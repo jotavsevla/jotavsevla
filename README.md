@@ -46,4 +46,3 @@ Atualmente em busca de estágio na área de desenvolvimento de software para apl
 
 ---
 
-💬 **"Tudo o que temos que fazer é decidir o que fazer com o tempo que nos é dado"** - Gandalf
