@@ -3,7 +3,6 @@
 ## 👨‍💻 Desenvolvedor em formação | Estudante de Ciências da Computação | IFNMG
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joao-victor-araujo-629392275/)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/jotavsevla)
 
 ### 🎓 Sobre Mim
 
@@ -13,7 +12,7 @@ Estudante de Ciências da Computação no IFNMG, atualmente no 5º período. Apa
 
 - **Linguagens:** C, C++, PHP, Java, MySQL
 - **Áreas de interesse:** Desenvolvimento web, Estruturas de dados, Algoritmos
-- **Ferramentas:** Git/GitHub, Visual Studio Code
+- **Ferramentas:** Git/GitHub, Docker
 
 ### 🚀 Projetos Principais
 
