@@ -1,0 +1,180 @@
+<svg width="900" height="500" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes blink {
+      0%, 50% { opacity: 1 }
+      51%, 100% { opacity: 0 }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0 }
+      to { opacity: 1 }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.6 }
+      50% { opacity: 1 }
+    }
+    .bg { fill: #0d1117; }
+    .panel-border { stroke: #30363d; stroke-width: 1; fill: none; }
+    .panel-header { fill: #161b22; }
+    .title { fill: #58a6ff; font-family: 'Consolas', 'Monaco', monospace; font-size: 11px; }
+    .title-active { fill: #0d1117; font-family: 'Consolas', 'Monaco', monospace; font-size: 11px; }
+    .title-bg { fill: #58a6ff; }
+    .item { fill: #8b949e; font-family: 'Consolas', 'Monaco', monospace; font-size: 11px; }
+    .item-selected { fill: #c9d1d9; font-family: 'Consolas', 'Monaco', monospace; font-size: 11px; }
+    .item-num { fill: #6e7681; font-family: 'Consolas', 'Monaco', monospace; font-size: 11px; }
+    .highlight-bar { fill: #238636; }
+    .content { fill: #c9d1d9; font-family: 'Consolas', 'Monaco', monospace; font-size: 11px; }
+    .content-title { fill: #58a6ff; font-family: 'Consolas', 'Monaco', monospace; font-size: 12px; font-weight: bold; }
+    .content-dim { fill: #8b949e; font-family: 'Consolas', 'Monaco', monospace; font-size: 11px; }
+    .content-green { fill: #7ee787; font-family: 'Consolas', 'Monaco', monospace; font-size: 11px; }
+    .content-yellow { fill: #d29922; font-family: 'Consolas', 'Monaco', monospace; font-size: 11px; }
+    .content-purple { fill: #a371f7; font-family: 'Consolas', 'Monaco', monospace; font-size: 11px; }
+    .content-link { fill: #58a6ff; font-family: 'Consolas', 'Monaco', monospace; font-size: 11px; text-decoration: underline; }
+    .statusbar { fill: #161b22; }
+    .statusbar-text { fill: #8b949e; font-family: 'Consolas', 'Monaco', monospace; font-size: 10px; }
+    .statusbar-green { fill: #238636; }
+    .big-title { fill: #7ee787; font-family: 'Consolas', 'Monaco', monospace; font-size: 28px; font-weight: bold; }
+    .big-subtitle { fill: #8b949e; font-family: 'Consolas', 'Monaco', monospace; font-size: 14px; }
+    .cursor { fill: #58a6ff; animation: blink 1s infinite; }
+    .learning { animation: pulse 2s infinite; }
+    .fade1 { animation: fadeIn 0.3s ease-out 0.1s both; }
+    .fade2 { animation: fadeIn 0.3s ease-out 0.2s both; }
+    .fade3 { animation: fadeIn 0.3s ease-out 0.3s both; }
+    .fade4 { animation: fadeIn 0.3s ease-out 0.4s both; }
+  </style>
+  
+  <!-- Background -->
+  <rect class="bg" width="900" height="500"/>
+  
+  <!-- LEFT PANEL: Menu/Projetos -->
+  <g class="fade1">
+    <rect class="panel-border" x="5" y="5" width="280" height="470" rx="2"/>
+    <rect class="panel-header" x="6" y="6" width="278" height="18" rx="2"/>
+    <rect class="title-bg" x="10" y="8" width="70" height="14" rx="2"/>
+    <text class="title-active" x="15" y="18">Projetos</text>
+    <text class="title" x="90" y="18">Skills</text>
+    <text class="title" x="140" y="18">Contato</text>
+    
+    <!-- Lista de projetos -->
+    <rect class="highlight-bar" x="8" y="30" width="274" height="16"/>
+    <text class="item-num" x="12" y="42">1.</text>
+    <text class="item-selected" x="28" y="42">🌊 aguaVIVA - Sistema Logístico</text>
+    
+    <text class="item-num" x="12" y="60">2.</text>
+    <text class="item" x="28" y="60">🧮 Algoritmos e Estruturas em C</text>
+    
+    <text class="item-num" x="12" y="78">3.</text>
+    <text class="item" x="28" y="78">📚 Projetos acadêmicos IFNMG</text>
+    
+    <text class="item-num" x="12" y="96">4.</text>
+    <text class="item" x="28" y="96">🚀 [Em breve] curso.dev projects</text>
+    
+    <!-- Separator -->
+    <line x1="10" y1="115" x2="280" y2="115" stroke="#30363d" stroke-width="1"/>
+    
+    <!-- Skills section -->
+    <text class="content-dim" x="12" y="132">─── Linguagens ───</text>
+    <text class="content-green" x="12" y="150">C</text>
+    <text class="item" x="85" y="150">████████████████████ 90%</text>
+    <text class="content-green" x="12" y="166">C++</text>
+    <text class="item" x="85" y="166">████████████████░░░░ 80%</text>
+    <text class="content-yellow" x="12" y="182">PHP</text>
+    <text class="item" x="85" y="182">████████████░░░░░░░░ 60%</text>
+    <text class="content-yellow" x="12" y="198">SQL</text>
+    <text class="item" x="85" y="198">██████████████░░░░░░ 70%</text>
+    <text class="content-yellow" x="12" y="214">HTML/CSS</text>
+    <text class="item" x="85" y="214">██████████░░░░░░░░░░ 50%</text>
+    
+    <text class="content-dim" x="12" y="238">─── Ferramentas ───</text>
+    <text class="item" x="12" y="256">• Git / GitHub</text>
+    <text class="item" x="12" y="272">• Linux</text>
+    <text class="item" x="12" y="288">• VS Code</text>
+    
+    <text class="content-dim" x="12" y="312">─── Aprendendo ───</text>
+    <text class="content-purple learning" x="12" y="330">• Node.js / Next.js</text>
+    <text class="content-purple learning" x="12" y="346">• TDD / CI/CD</text>
+    <text class="content-purple learning" x="12" y="362">• Docker</text>
+  </g>
+  
+  <!-- CENTER PANEL: Conteúdo -->
+  <g class="fade2">
+    <rect class="panel-border" x="290" y="5" width="350" height="470" rx="2"/>
+    <rect class="panel-header" x="291" y="6" width="348" height="18" rx="2"/>
+    <text class="title" x="300" y="18">jotavsevla/aguaVIVA (selecionado)</text>
+    
+    <text class="content-title" x="300" y="45">Sistema de Gerenciamento Logístico</text>
+    <text class="content-title" x="300" y="60">para Distribuidora de Água</text>
+    
+    <text class="content-dim" x="300" y="85">Status: Em desenvolvimento 🚧</text>
+    
+    <text class="content" x="300" y="110">Aplicação web completa para</text>
+    <text class="content" x="300" y="126">gerenciamento de frotas, rotas e</text>
+    <text class="content" x="300" y="142">demandas de uma distribuidora.</text>
+    
+    <text class="content-dim" x="300" y="170">─── Stack ───</text>
+    <text class="content-green" x="300" y="188">• PHP + MySQL</text>
+    <text class="content-green" x="300" y="204">• APIs REST</text>
+    <text class="content-green" x="300" y="220">• OpenStreetMap + qGIS</text>
+    
+    <text class="content-dim" x="300" y="248">─── Segurança ───</text>
+    <text class="content-green" x="300" y="266">✓ Hash de senhas (bcrypt)</text>
+    <text class="content-green" x="300" y="282">✓ Proteção SQL injection</text>
+    <text class="content-green" x="300" y="298">✓ Sanitização de inputs</text>
+    
+    <text class="content-dim" x="300" y="326">─── Roadmap ───</text>
+    <text class="content" x="300" y="344">○ Testes automatizados (TDD)</text>
+    <text class="content" x="300" y="360">○ CI/CD com GitHub Actions</text>
+    <text class="content" x="300" y="376">○ Containerização (Docker)</text>
+    <text class="content" x="300" y="392">○ Otimização de rotas (OVRP)</text>
+    
+    <text class="content-link" x="300" y="420">github.com/jotavsevla/aguaVIVA</text>
+  </g>
+  
+  <!-- RIGHT PANEL: Sobre -->
+  <g class="fade3">
+    <rect class="panel-border" x="645" y="5" width="250" height="470" rx="2"/>
+    <rect class="panel-header" x="646" y="6" width="248" height="18" rx="2"/>
+    <text class="title" x="655" y="18">sobre.txt</text>
+    
+    <text class="big-title" x="660" y="60">JVAPA</text>
+    <text class="big-subtitle" x="660" y="82">João Victor A. P. de Araújo</text>
+    
+    <text class="content-dim" x="660" y="115">─────────────────────</text>
+    
+    <text class="content" x="660" y="140">Ciências da Computação</text>
+    <text class="content-green" x="660" y="156">@ IFNMG - Montes Claros</text>
+    <text class="content-dim" x="660" y="172">7º período</text>
+    
+    <text class="content-dim" x="660" y="200">─────────────────────</text>
+    
+    <text class="content-green" x="660" y="225">💼 Experiência</text>
+    <text class="content" x="660" y="241">AeC - Suporte Mercado Livre</text>
+    <text class="content-dim" x="660" y="257">1 ano e 6 meses (CLT)</text>
+    
+    <text class="content-dim" x="660" y="285">─────────────────────</text>
+    
+    <text class="content-yellow" x="660" y="310">🎮 Ex-Pro Player</text>
+    <text class="content" x="660" y="326">Rainbow Six Siege</text>
+    <text class="content-dim" x="660" y="342">Vice-campeão nacional</text>
+    
+    <text class="content-dim" x="660" y="370">─────────────────────</text>
+    
+    <text class="content-purple" x="660" y="395">📖 Estudando:</text>
+    <text class="content" x="660" y="411">curso.dev (Full-Stack)</text>
+    
+    <text class="content-dim" x="660" y="439">─────────────────────</text>
+    
+    <text class="content-link" x="660" y="460">LinkedIn ↗  GitHub ↗</text>
+  </g>
+  
+  <!-- STATUSBAR -->
+  <g class="fade4">
+    <rect class="statusbar" x="0" y="480" width="900" height="20"/>
+    <rect class="statusbar-green" x="0" y="480" width="120" height="20"/>
+    <text class="title-active" x="10" y="493">● OPEN TO WORK</text>
+    <text class="statusbar-text" x="140" y="493">↑/↓: navegar</text>
+    <text class="statusbar-text" x="250" y="493">←/→: painéis</text>
+    <text class="statusbar-text" x="360" y="493">enter: abrir</text>
+    <text class="statusbar-text" x="750" y="493">jvapa v2.0.0</text>
+    <rect class="cursor" x="875" y="483" width="8" height="12"/>
+  </g>
+</svg>

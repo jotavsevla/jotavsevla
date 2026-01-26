@@ -1,48 +1,27 @@
-# João Victor Alves Pereira de Araújo
+<p align="center">
+  <img src="./header.svg" alt="Terminal TUI Profile"/>
+</p>
 
-## 👨‍💻 Desenvolvedor em formação | Estudante de Ciências da Computação | IFNMG
+<p align="center">
+  <a href="https://www.linkedin.com/in/joao-victor-araujo-629392275/">
+    <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:jotavsevla@gmail.com">
+    <img src="https://img.shields.io/badge/-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://github.com/jotavsevla/aguaVIVA">
+    <img src="https://img.shields.io/badge/-Projeto_Principal-238636?style=for-the-badge&logo=github&logoColor=white" alt="aguaVIVA"/>
+  </a>
+</p>
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joao-victor-araujo-629392275/)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jotavsevla&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117" alt="Linguagens"/>
+</p>
 
-### 🎓 Sobre Mim
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jotavsevla&theme=github-dark-blue&hide_border=true&background=0d1117" alt="Streak"/>
+</p>
 
-Estudante de Ciências da Computação no IFNMG, atualmente no 5º período. Apaixonado por algoritmos, estruturas de dados e desenvolvimento de software. Busco meu primeiro estágio na área de desenvolvimento para aplicar conhecimentos teóricos em problemas reais.
-
-### 💻 Habilidades Técnicas
-
-- **Linguagens:** C, C++, PHP, Java, MySQL
-- **Áreas de interesse:** Desenvolvimento web, Estruturas de dados, Algoritmos
-- **Ferramentas:** Git/GitHub, Docker
-
-### 🚀 Projetos Principais
-
-#### 🌊 Sistema de Gerenciamento Logístico para Distribuidora de Água (em desenvolvimento)
-- Aplicação web para gerenciamento de frotas, rotas e demandas
-- Tecnologias: PHP, MySQL, APIs REST
-- Visualização com OpenStreetMap (OSM) e qGIS para otimização de rotas
-- Integração planejada de componentes C++ para processamento de alto desempenho
-- [Ver repositório](https://github.com/jotavsevla/aguaVIVA)
-
-#### 🧮 Algoritmos e Estruturas de Dados
-- Implementações em C de estruturas fundamentais como listas encadeadas, TADs e tabelas hash
-- Algoritmos clássicos: mergesort, exact cover, problema da mochila
-- [Ver repositório](https://github.com/jotavsevla/algoritmos_e_estrutura_de_dados_em_C)
-
-### 🏆 Experiências Relevantes
-
-- **Jogador profissional** de Rainbow Six Siege (2019-2020): Desenvolvi habilidades em trabalho em equipe, comunicação técnica clara sob pressão, análise estratégica e adaptação rápida a diferentes cenários.
-
-### 📚 Educação
-
-- **Bacharelado em Ciências da Computação** - IFNMG, Montes Claros (2022 - atual)
-
-### 🔍 Buscando Oportunidades
-
-Atualmente em busca de estágio na área de desenvolvimento de software para aplicar meus conhecimentos teóricos e práticos em um ambiente profissional, contribuindo com projetos reais enquanto desenvolvo minhas habilidades técnicas.
-
-### 📊 Estatísticas GitHub
-
-![Linguagens Mais Usadas](https://github-readme-stats.vercel.app/api/top-langs/?username=jotavsevla&layout=compact&theme=vision-friendly-dark)
-
----
-
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=jotavsevla&color=58a6ff&style=flat-square&label=visitors" alt="Profile views"/>
+</p>
