@@ -1,4 +1,4 @@
-<svg width="900" height="500" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="800" xmlns="http://www.w3.org/2000/svg">
   <style>
     @keyframes blink {
       0%, 50% { opacity: 1 }
@@ -15,25 +15,25 @@
     .bg { fill: #0d1117; }
     .panel-border { stroke: #30363d; stroke-width: 1; fill: none; }
     .panel-header { fill: #161b22; }
-    .title { fill: #58a6ff; font-family: 'Consolas', 'Monaco', monospace; font-size: 11px; }
-    .title-active { fill: #0d1117; font-family: 'Consolas', 'Monaco', monospace; font-size: 11px; }
+    .title { fill: #58a6ff; font-family: 'Consolas', 'Monaco', monospace; font-size: 15px; }
+    .title-active { fill: #0d1117; font-family: 'Consolas', 'Monaco', monospace; font-size: 15px; }
     .title-bg { fill: #58a6ff; }
-    .item { fill: #8b949e; font-family: 'Consolas', 'Monaco', monospace; font-size: 11px; }
-    .item-selected { fill: #c9d1d9; font-family: 'Consolas', 'Monaco', monospace; font-size: 11px; }
-    .item-num { fill: #6e7681; font-family: 'Consolas', 'Monaco', monospace; font-size: 11px; }
+    .item { fill: #8b949e; font-family: 'Consolas', 'Monaco', monospace; font-size: 13px; }
+    .item-selected { fill: #c9d1d9; font-family: 'Consolas', 'Monaco', monospace; font-size: 13px; }
+    .item-num { fill: #6e7681; font-family: 'Consolas', 'Monaco', monospace; font-size: 12px; }
     .highlight-bar { fill: #238636; }
-    .content { fill: #c9d1d9; font-family: 'Consolas', 'Monaco', monospace; font-size: 11px; }
-    .content-title { fill: #58a6ff; font-family: 'Consolas', 'Monaco', monospace; font-size: 12px; font-weight: bold; }
-    .content-dim { fill: #8b949e; font-family: 'Consolas', 'Monaco', monospace; font-size: 11px; }
-    .content-green { fill: #7ee787; font-family: 'Consolas', 'Monaco', monospace; font-size: 11px; }
-    .content-yellow { fill: #d29922; font-family: 'Consolas', 'Monaco', monospace; font-size: 11px; }
-    .content-purple { fill: #a371f7; font-family: 'Consolas', 'Monaco', monospace; font-size: 11px; }
-    .content-link { fill: #58a6ff; font-family: 'Consolas', 'Monaco', monospace; font-size: 11px; text-decoration: underline; }
+    .content { fill: #c9d1d9; font-family: 'Consolas', 'Monaco', monospace; font-size: 15px; }
+    .content-title { fill: #58a6ff; font-family: 'Consolas', 'Monaco', monospace; font-size: 18px; font-weight: bold; }
+    .content-dim { fill: #8b949e; font-family: 'Consolas', 'Monaco', monospace; font-size: 15px; }
+    .content-green { fill: #7ee787; font-family: 'Consolas', 'Monaco', monospace; font-size: 15px; }
+    .content-yellow { fill: #d29922; font-family: 'Consolas', 'Monaco', monospace; font-size: 15px; }
+    .content-purple { fill: #a371f7; font-family: 'Consolas', 'Monaco', monospace; font-size: 15px; }
+    .content-link { fill: #58a6ff; font-family: 'Consolas', 'Monaco', monospace; font-size: 15px; text-decoration: underline; }
     .statusbar { fill: #161b22; }
-    .statusbar-text { fill: #8b949e; font-family: 'Consolas', 'Monaco', monospace; font-size: 10px; }
+    .statusbar-text { fill: #8b949e; font-family: 'Consolas', 'Monaco', monospace; font-size: 14px; }
     .statusbar-green { fill: #238636; }
-    .big-title { fill: #7ee787; font-family: 'Consolas', 'Monaco', monospace; font-size: 28px; font-weight: bold; }
-    .big-subtitle { fill: #8b949e; font-family: 'Consolas', 'Monaco', monospace; font-size: 14px; }
+    .big-title { fill: #7ee787; font-family: 'Consolas', 'Monaco', monospace; font-size: 38px; font-weight: bold; }
+    .big-subtitle { fill: #8b949e; font-family: 'Consolas', 'Monaco', monospace; font-size: 18px; }
     .cursor { fill: #58a6ff; animation: blink 1s infinite; }
     .learning { animation: pulse 2s infinite; }
     .fade1 { animation: fadeIn 0.3s ease-out 0.1s both; }
@@ -48,149 +48,150 @@
   </style>
   
   <!-- Background -->
-  <rect class="bg" width="900" height="500"/>
+  <rect class="bg" width="900" height="800"/>
   
   <!-- LEFT PANEL: Menu/Projetos -->
   <g class="fade1">
-    <rect class="panel-border" x="5" y="5" width="280" height="470" rx="2"/>
-    <rect class="panel-header" x="6" y="6" width="278" height="18" rx="2"/>
-    <rect class="title-bg" x="10" y="8" width="70" height="14" rx="2"/>
-    <text class="title-active" x="15" y="18">Projetos</text>
+    <rect class="panel-border" x="5" y="5" width="280" height="770" rx="2"/>
+    <rect class="panel-header" x="6" y="6" width="278" height="20" rx="2"/>
+    <rect class="title-bg" x="10" y="8" width="75" height="16" rx="2"/>
+    <text class="title-active" x="15" y="20">Projetos</text>
     
     <!-- Lista de projetos -->
     <a href="https://github.com/jotavsevla/aguaVIVA" target="_blank">
-      <rect class="highlight-bar" x="8" y="30" width="274" height="16"/>
-      <text class="item-num" x="12" y="42">1.</text>
-      <text class="item-selected" x="28" y="42">🌊 aguaVIVA - Sistema Logístico</text>
+      <rect class="highlight-bar" x="8" y="32" width="274" height="18"/>
+      <text class="item-num" x="12" y="46">1.</text>
+      <text class="item-selected" x="28" y="46">🌊 aguaVIVA - Sistema Logístico</text>
     </a>
 
     <a href="https://github.com/jotavsevla?tab=repositories&amp;q=&amp;type=&amp;language=c" target="_blank">
-      <rect class="hover-bg" x="8" y="48" width="274" height="16" fill="transparent"/>
-      <text class="item-num" x="12" y="60">2.</text>
-      <text class="item" x="28" y="60">🧮 Algoritmos e Estruturas em C</text>
+      <rect class="hover-bg" x="8" y="54" width="274" height="18" fill="transparent"/>
+      <text class="item-num" x="12" y="68">2.</text>
+      <text class="item" x="28" y="68">🧮 Algoritmos e Estruturas em C</text>
     </a>
 
     <a href="https://github.com/jotavsevla?tab=repositories" target="_blank">
-      <rect class="hover-bg" x="8" y="66" width="274" height="16" fill="transparent"/>
-      <text class="item-num" x="12" y="78">3.</text>
-      <text class="item" x="28" y="78">📚 Projetos acadêmicos IFNMG</text>
+      <rect class="hover-bg" x="8" y="76" width="274" height="18" fill="transparent"/>
+      <text class="item-num" x="12" y="90">3.</text>
+      <text class="item" x="28" y="90">📚 Projetos acadêmicos IFNMG</text>
     </a>
 
     <a href="https://curso.dev" target="_blank">
-      <rect class="hover-bg" x="8" y="84" width="274" height="16" fill="transparent"/>
-      <text class="item-num" x="12" y="96">4.</text>
-      <text class="item" x="28" y="96">🚀 [Em breve] curso.dev projects</text>
+      <rect class="hover-bg" x="8" y="98" width="274" height="18" fill="transparent"/>
+      <text class="item-num" x="12" y="112">4.</text>
+      <text class="item" x="28" y="112">🚀 [Em breve] curso.dev projects</text>
     </a>
-    
+
     <!-- Separator -->
-    <line x1="10" y1="115" x2="280" y2="115" stroke="#30363d" stroke-width="1"/>
-    
+    <line x1="10" y1="128" x2="280" y2="128" stroke="#30363d" stroke-width="1"/>
+
     <!-- Skills section -->
-    <text class="content-green" x="12" y="132">C</text>
-    <text class="item" x="85" y="132">████████████████████ 90%</text>
-    <text class="content-green" x="12" y="148">C++</text>
-    <text class="item" x="85" y="148">████████████████░░░░ 80%</text>
-    <text class="content-yellow" x="12" y="164">PHP</text>
-    <text class="item" x="85" y="164">████████████░░░░░░░░ 60%</text>
-    <text class="content-yellow" x="12" y="180">SQL</text>
-    <text class="item" x="85" y="180">██████████████░░░░░░ 70%</text>
-    <text class="content-yellow" x="12" y="196">HTML/CSS</text>
-    <text class="item" x="85" y="196">██████████░░░░░░░░░░ 50%</text>
-    
-    <text class="content-dim" x="12" y="220">─── Ferramentas ───</text>
-    <text class="item" x="12" y="238">• Git / GitHub</text>
-    <text class="item" x="12" y="254">• Linux</text>
-    <text class="item" x="12" y="270">• VS Code</text>
-    
-    <text class="content-dim" x="12" y="294">─── Aprendendo ───</text>
-    <text class="content-purple learning" x="12" y="312">• Node.js / Next.js</text>
-    <text class="content-purple learning" x="12" y="328">• TDD / CI/CD</text>
-    <text class="content-purple learning" x="12" y="344">• Docker</text>
+    <text class="content-green" x="12" y="165">C</text>
+    <text class="item" x="105" y="165">███████████████░░ 90%</text>
+    <text class="content-green" x="12" y="190">C++</text>
+    <text class="item" x="105" y="190">██████████████░░░ 80%</text>
+    <text class="content-yellow" x="12" y="215">PHP</text>
+    <text class="item" x="105" y="215">██████████░░░░░░░ 60%</text>
+    <text class="content-yellow" x="12" y="240">SQL</text>
+    <text class="item" x="105" y="240">████████████░░░░░ 70%</text>
+    <text class="content-yellow" x="12" y="265">HTML/CSS</text>
+    <text class="item" x="105" y="265">█████████░░░░░░░░ 50%</text>
+
+    <text class="content-dim" x="12" y="310">─── Ferramentas ───</text>
+    <text class="item" x="12" y="340">• Git / GitHub</text>
+    <text class="item" x="12" y="367">• Linux</text>
+    <text class="item" x="12" y="394">• VS Code</text>
+
+    <text class="content-dim" x="12" y="439">─── Aprendendo ───</text>
+    <text class="content-purple learning" x="12" y="469">• Node.js / Next.js</text>
+    <text class="content-purple learning" x="12" y="496">• TDD / CI/CD</text>
+    <text class="content-purple learning" x="12" y="523">• Docker</text>
   </g>
   
   <!-- CENTER PANEL: Conteúdo -->
   <g class="fade2">
-    <rect class="panel-border" x="290" y="5" width="350" height="470" rx="2"/>
-    <rect class="panel-header" x="291" y="6" width="348" height="18" rx="2"/>
-    <text class="title" x="300" y="18">jotavsevla/aguaVIVA (selecionado)</text>
+    <rect class="panel-border" x="290" y="5" width="350" height="770" rx="2"/>
+    <rect class="panel-header" x="291" y="6" width="348" height="20" rx="2"/>
+    <text class="title" x="300" y="20">jotavsevla/aguaVIVA (selecionado)</text>
     
-    <text class="content-title" x="300" y="45">Sistema de Gerenciamento Logístico</text>
-    <text class="content-title" x="300" y="60">para Distribuidora de Água</text>
-    
-    <text class="content-dim" x="300" y="85">Status: Em desenvolvimento 🚧</text>
-    
-    <text class="content" x="300" y="110">Aplicação web completa para</text>
-    <text class="content" x="300" y="126">gerenciamento de frotas, rotas e</text>
-    <text class="content" x="300" y="142">demandas de uma distribuidora.</text>
-    
-    <text class="content-dim" x="300" y="170">─── Stack ───</text>
-    <text class="content-green" x="300" y="188">• PHP + MySQL</text>
-    <text class="content-green" x="300" y="204">• APIs REST</text>
-    <text class="content-green" x="300" y="220">• OpenStreetMap + qGIS</text>
-    
-    <text class="content-dim" x="300" y="248">─── Segurança ───</text>
-    <text class="content-green" x="300" y="266">✓ Hash de senhas (bcrypt)</text>
-    <text class="content-green" x="300" y="282">✓ Proteção SQL injection</text>
-    <text class="content-green" x="300" y="298">✓ Sanitização de inputs</text>
-    
-    <text class="content-dim" x="300" y="326">─── Roadmap ───</text>
-    <text class="content" x="300" y="344">○ Testes automatizados (TDD)</text>
-    <text class="content" x="300" y="360">○ CI/CD com GitHub Actions</text>
-    <text class="content" x="300" y="376">○ Containerização (Docker)</text>
-    <text class="content" x="300" y="392">○ Otimização de rotas (OVRP)</text>
+    <text class="content-title" x="300" y="50">Sistema de Gerenciamento</text>
+    <text class="content-title" x="300" y="72">Logístico para Distribuidora</text>
+
+    <text class="content-dim" x="300" y="110">Status: Em desenvolvimento 🚧</text>
+
+    <text class="content" x="300" y="145">Aplicação web completa para</text>
+    <text class="content" x="300" y="167">gerenciamento de frotas, rotas e</text>
+    <text class="content" x="300" y="189">demandas de uma distribuidora.</text>
+
+    <text class="content-dim" x="300" y="235">─── Stack ───</text>
+    <text class="content-green" x="300" y="265">• PHP + MySQL</text>
+    <text class="content-green" x="300" y="292">• APIs REST</text>
+    <text class="content-green" x="300" y="319">• OpenStreetMap + qGIS</text>
+
+    <text class="content-dim" x="300" y="360">─── Segurança ───</text>
+    <text class="content-green" x="300" y="390">✓ Hash de senhas (bcrypt)</text>
+    <text class="content-green" x="300" y="417">✓ Proteção SQL injection</text>
+    <text class="content-green" x="300" y="444">✓ Sanitização de inputs</text>
+
+    <text class="content-dim" x="300" y="485">─── Roadmap ───</text>
+    <text class="content" x="300" y="515">○ Testes automatizados (TDD)</text>
+    <text class="content" x="300" y="542">○ CI/CD com GitHub Actions</text>
+    <text class="content" x="300" y="569">○ Containerização (Docker)</text>
+    <text class="content" x="300" y="596">○ Otimização de rotas (OVRP)</text>
 
     <a href="https://github.com/jotavsevla/aguaVIVA" target="_blank">
-      <text class="content-link" x="300" y="420">github.com/jotavsevla/aguaVIVA</text>
+      <text class="content-link" x="300" y="640">github.com/jotavsevla/aguaVIVA</text>
     </a>
   </g>
   
   <!-- RIGHT PANEL: Sobre -->
   <g class="fade3">
-    <rect class="panel-border" x="645" y="5" width="250" height="470" rx="2"/>
-    <rect class="panel-header" x="646" y="6" width="248" height="18" rx="2"/>
-    <text class="title" x="655" y="18">sobre.txt</text>
+    <rect class="panel-border" x="645" y="5" width="250" height="770" rx="2"/>
+    <rect class="panel-header" x="646" y="6" width="248" height="20" rx="2"/>
+    <text class="title" x="655" y="20">sobre.txt</text>
     
-    <text class="big-title" x="660" y="60">JVAPA</text>
-    <text class="big-subtitle" x="660" y="82">João Victor A. P. de Araújo</text>
-    
-    <text class="content-dim" x="660" y="115">─────────────────────</text>
-    
-    <text class="content" x="660" y="140">Ciências da Computação</text>
-    <text class="content-green" x="660" y="156">@ IFNMG - Montes Claros</text>
-    <text class="content-dim" x="660" y="172">7º período (cursando)</text>
-    
-    <text class="content-dim" x="660" y="200">─────────────────────</text>
-    
-    <text class="content-green" x="660" y="225">💼 Experiência</text>
-    <text class="content" x="660" y="241">AeC - Suporte Mercado Livre</text>
-    <text class="content-dim" x="660" y="257">1 ano e 6 meses (CLT)</text>
-    
-    <text class="content-dim" x="660" y="285">─────────────────────</text>
-    
-    <text class="content-yellow" x="660" y="310">🎮 Ex-Pro Player</text>
-    <text class="content" x="660" y="326">Rainbow Six Siege</text>
-    <text class="content-dim" x="660" y="342">Vice-campeão nacional</text>
-    
-    <text class="content-dim" x="660" y="370">─────────────────────</text>
-    
-    <text class="content-purple" x="660" y="395">📖 Estudando:</text>
+    <text class="big-title" x="660" y="65">JVAPA</text>
+    <text class="big-subtitle" x="660" y="92">João Victor A. P.</text>
+    <text class="big-subtitle" x="660" y="112">de Araújo</text>
+
+    <text class="content-dim" x="660" y="150">─────────────────────</text>
+
+    <text class="content" x="660" y="180">Ciências da Computação</text>
+    <text class="content-green" x="660" y="202">@ IFNMG - Montes Claros</text>
+    <text class="content-dim" x="660" y="224">7º período (cursando)</text>
+
+    <text class="content-dim" x="660" y="262">─────────────────────</text>
+
+    <text class="content-green" x="660" y="292">💼 Experiência</text>
+    <text class="content" x="660" y="314">AeC - Suporte Meli</text>
+    <text class="content-dim" x="660" y="336">1 ano e 6 meses (CLT)</text>
+
+    <text class="content-dim" x="660" y="374">─────────────────────</text>
+
+    <text class="content-yellow" x="660" y="404">🎮 Ex-Pro Player</text>
+    <text class="content" x="660" y="426">Rainbow Six Siege</text>
+    <text class="content-dim" x="660" y="448">Vice-campeão nacional</text>
+
+    <text class="content-dim" x="660" y="486">─────────────────────</text>
+
+    <text class="content-purple" x="660" y="516">📖 Estudando:</text>
     <a href="https://curso.dev" target="_blank">
-      <text class="content" x="660" y="411">curso.dev (Full-Stack)</text>
+      <text class="content" x="660" y="538">curso.dev (Full-Stack)</text>
     </a>
-    
-    <text class="content-dim" x="660" y="439">─────────────────────</text>
+
+    <text class="content-dim" x="660" y="576">─────────────────────</text>
 
     <a href="https://github.com/jotavsevla" target="_blank">
-      <text class="content-link" x="660" y="460">GitHub ↗</text>
+      <text class="content-link" x="660" y="610">GitHub ↗</text>
     </a>
   </g>
   
   <!-- STATUSBAR -->
   <g class="fade4">
-    <rect class="statusbar" x="0" y="480" width="900" height="20"/>
-    <rect class="statusbar-green" x="0" y="480" width="120" height="20"/>
-    <text class="title-active" x="10" y="493">● OPEN TO WORK</text>
-    <text class="statusbar-text" x="800" y="493">jvapa v2.0.0</text>
-    <rect class="cursor" x="875" y="483" width="8" height="12"/>
+    <rect class="statusbar" x="0" y="780" width="900" height="20"/>
+    <rect class="statusbar-green" x="0" y="780" width="145" height="20"/>
+    <text class="title-active" x="10" y="793">● OPEN TO WORK</text>
+    <text class="statusbar-text" x="770" y="793">jvapa v1.0.0</text>
+    <rect class="cursor" x="875" y="783" width="8" height="12"/>
   </g>
 </svg>
