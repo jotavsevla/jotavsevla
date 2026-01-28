@@ -40,6 +40,11 @@
     .fade2 { animation: fadeIn 0.3s ease-out 0.2s both; }
     .fade3 { animation: fadeIn 0.3s ease-out 0.3s both; }
     .fade4 { animation: fadeIn 0.3s ease-out 0.4s both; }
+    a { cursor: pointer; }
+    a:hover .item { fill: #c9d1d9; transition: fill 0.2s; }
+    a:hover .item-selected { fill: #ffffff; transition: fill 0.2s; }
+    a:hover .content-link { fill: #79c0ff; transition: fill 0.2s; }
+    a:hover rect.hover-bg { fill: rgba(88, 166, 255, 0.1); }
   </style>
   
   <!-- Background -->
@@ -51,48 +56,56 @@
     <rect class="panel-header" x="6" y="6" width="278" height="18" rx="2"/>
     <rect class="title-bg" x="10" y="8" width="70" height="14" rx="2"/>
     <text class="title-active" x="15" y="18">Projetos</text>
-    <text class="title" x="90" y="18">Skills</text>
-    <text class="title" x="140" y="18">Contato</text>
     
     <!-- Lista de projetos -->
-    <rect class="highlight-bar" x="8" y="30" width="274" height="16"/>
-    <text class="item-num" x="12" y="42">1.</text>
-    <text class="item-selected" x="28" y="42">🌊 aguaVIVA - Sistema Logístico</text>
-    
-    <text class="item-num" x="12" y="60">2.</text>
-    <text class="item" x="28" y="60">🧮 Algoritmos e Estruturas em C</text>
-    
-    <text class="item-num" x="12" y="78">3.</text>
-    <text class="item" x="28" y="78">📚 Projetos acadêmicos IFNMG</text>
-    
-    <text class="item-num" x="12" y="96">4.</text>
-    <text class="item" x="28" y="96">🚀 [Em breve] curso.dev projects</text>
+    <a href="https://github.com/jotavsevla/aguaVIVA" target="_blank">
+      <rect class="highlight-bar" x="8" y="30" width="274" height="16"/>
+      <text class="item-num" x="12" y="42">1.</text>
+      <text class="item-selected" x="28" y="42">🌊 aguaVIVA - Sistema Logístico</text>
+    </a>
+
+    <a href="https://github.com/jotavsevla?tab=repositories&amp;q=&amp;type=&amp;language=c" target="_blank">
+      <rect class="hover-bg" x="8" y="48" width="274" height="16" fill="transparent"/>
+      <text class="item-num" x="12" y="60">2.</text>
+      <text class="item" x="28" y="60">🧮 Algoritmos e Estruturas em C</text>
+    </a>
+
+    <a href="https://github.com/jotavsevla?tab=repositories" target="_blank">
+      <rect class="hover-bg" x="8" y="66" width="274" height="16" fill="transparent"/>
+      <text class="item-num" x="12" y="78">3.</text>
+      <text class="item" x="28" y="78">📚 Projetos acadêmicos IFNMG</text>
+    </a>
+
+    <a href="https://curso.dev" target="_blank">
+      <rect class="hover-bg" x="8" y="84" width="274" height="16" fill="transparent"/>
+      <text class="item-num" x="12" y="96">4.</text>
+      <text class="item" x="28" y="96">🚀 [Em breve] curso.dev projects</text>
+    </a>
     
     <!-- Separator -->
     <line x1="10" y1="115" x2="280" y2="115" stroke="#30363d" stroke-width="1"/>
     
     <!-- Skills section -->
-    <text class="content-dim" x="12" y="132">─── Linguagens ───</text>
-    <text class="content-green" x="12" y="150">C</text>
-    <text class="item" x="85" y="150">████████████████████ 90%</text>
-    <text class="content-green" x="12" y="166">C++</text>
-    <text class="item" x="85" y="166">████████████████░░░░ 80%</text>
-    <text class="content-yellow" x="12" y="182">PHP</text>
-    <text class="item" x="85" y="182">████████████░░░░░░░░ 60%</text>
-    <text class="content-yellow" x="12" y="198">SQL</text>
-    <text class="item" x="85" y="198">██████████████░░░░░░ 70%</text>
-    <text class="content-yellow" x="12" y="214">HTML/CSS</text>
-    <text class="item" x="85" y="214">██████████░░░░░░░░░░ 50%</text>
+    <text class="content-green" x="12" y="132">C</text>
+    <text class="item" x="85" y="132">████████████████████ 90%</text>
+    <text class="content-green" x="12" y="148">C++</text>
+    <text class="item" x="85" y="148">████████████████░░░░ 80%</text>
+    <text class="content-yellow" x="12" y="164">PHP</text>
+    <text class="item" x="85" y="164">████████████░░░░░░░░ 60%</text>
+    <text class="content-yellow" x="12" y="180">SQL</text>
+    <text class="item" x="85" y="180">██████████████░░░░░░ 70%</text>
+    <text class="content-yellow" x="12" y="196">HTML/CSS</text>
+    <text class="item" x="85" y="196">██████████░░░░░░░░░░ 50%</text>
     
-    <text class="content-dim" x="12" y="238">─── Ferramentas ───</text>
-    <text class="item" x="12" y="256">• Git / GitHub</text>
-    <text class="item" x="12" y="272">• Linux</text>
-    <text class="item" x="12" y="288">• VS Code</text>
+    <text class="content-dim" x="12" y="220">─── Ferramentas ───</text>
+    <text class="item" x="12" y="238">• Git / GitHub</text>
+    <text class="item" x="12" y="254">• Linux</text>
+    <text class="item" x="12" y="270">• VS Code</text>
     
-    <text class="content-dim" x="12" y="312">─── Aprendendo ───</text>
-    <text class="content-purple learning" x="12" y="330">• Node.js / Next.js</text>
-    <text class="content-purple learning" x="12" y="346">• TDD / CI/CD</text>
-    <text class="content-purple learning" x="12" y="362">• Docker</text>
+    <text class="content-dim" x="12" y="294">─── Aprendendo ───</text>
+    <text class="content-purple learning" x="12" y="312">• Node.js / Next.js</text>
+    <text class="content-purple learning" x="12" y="328">• TDD / CI/CD</text>
+    <text class="content-purple learning" x="12" y="344">• Docker</text>
   </g>
   
   <!-- CENTER PANEL: Conteúdo -->
@@ -125,8 +138,10 @@
     <text class="content" x="300" y="360">○ CI/CD com GitHub Actions</text>
     <text class="content" x="300" y="376">○ Containerização (Docker)</text>
     <text class="content" x="300" y="392">○ Otimização de rotas (OVRP)</text>
-    
-    <text class="content-link" x="300" y="420">github.com/jotavsevla/aguaVIVA</text>
+
+    <a href="https://github.com/jotavsevla/aguaVIVA" target="_blank">
+      <text class="content-link" x="300" y="420">github.com/jotavsevla/aguaVIVA</text>
+    </a>
   </g>
   
   <!-- RIGHT PANEL: Sobre -->
@@ -142,7 +157,7 @@
     
     <text class="content" x="660" y="140">Ciências da Computação</text>
     <text class="content-green" x="660" y="156">@ IFNMG - Montes Claros</text>
-    <text class="content-dim" x="660" y="172">7º período</text>
+    <text class="content-dim" x="660" y="172">7º período (cursando)</text>
     
     <text class="content-dim" x="660" y="200">─────────────────────</text>
     
@@ -159,11 +174,15 @@
     <text class="content-dim" x="660" y="370">─────────────────────</text>
     
     <text class="content-purple" x="660" y="395">📖 Estudando:</text>
-    <text class="content" x="660" y="411">curso.dev (Full-Stack)</text>
+    <a href="https://curso.dev" target="_blank">
+      <text class="content" x="660" y="411">curso.dev (Full-Stack)</text>
+    </a>
     
     <text class="content-dim" x="660" y="439">─────────────────────</text>
-    
-    <text class="content-link" x="660" y="460">LinkedIn ↗  GitHub ↗</text>
+
+    <a href="https://github.com/jotavsevla" target="_blank">
+      <text class="content-link" x="660" y="460">GitHub ↗</text>
+    </a>
   </g>
   
   <!-- STATUSBAR -->
@@ -171,10 +190,7 @@
     <rect class="statusbar" x="0" y="480" width="900" height="20"/>
     <rect class="statusbar-green" x="0" y="480" width="120" height="20"/>
     <text class="title-active" x="10" y="493">● OPEN TO WORK</text>
-    <text class="statusbar-text" x="140" y="493">↑/↓: navegar</text>
-    <text class="statusbar-text" x="250" y="493">←/→: painéis</text>
-    <text class="statusbar-text" x="360" y="493">enter: abrir</text>
-    <text class="statusbar-text" x="750" y="493">jvapa v2.0.0</text>
+    <text class="statusbar-text" x="800" y="493">jvapa v2.0.0</text>
     <rect class="cursor" x="875" y="483" width="8" height="12"/>
   </g>
 </svg>
