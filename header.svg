@@ -56,8 +56,6 @@
     <rect class="panel-header" x="6" y="6" width="278" height="18" rx="2"/>
     <rect class="title-bg" x="10" y="8" width="70" height="14" rx="2"/>
     <text class="title-active" x="15" y="18">Projetos</text>
-    <text class="title" x="90" y="18">Skills</text>
-    <text class="title" x="140" y="18">Contato</text>
     
     <!-- Lista de projetos -->
     <a href="https://github.com/jotavsevla/aguaVIVA" target="_blank">
@@ -88,27 +86,26 @@
     <line x1="10" y1="115" x2="280" y2="115" stroke="#30363d" stroke-width="1"/>
     
     <!-- Skills section -->
-    <text class="content-dim" x="12" y="132">─── Linguagens ───</text>
-    <text class="content-green" x="12" y="150">C</text>
-    <text class="item" x="85" y="150">████████████████████ 90%</text>
-    <text class="content-green" x="12" y="166">C++</text>
-    <text class="item" x="85" y="166">████████████████░░░░ 80%</text>
-    <text class="content-yellow" x="12" y="182">PHP</text>
-    <text class="item" x="85" y="182">████████████░░░░░░░░ 60%</text>
-    <text class="content-yellow" x="12" y="198">SQL</text>
-    <text class="item" x="85" y="198">██████████████░░░░░░ 70%</text>
-    <text class="content-yellow" x="12" y="214">HTML/CSS</text>
-    <text class="item" x="85" y="214">██████████░░░░░░░░░░ 50%</text>
+    <text class="content-green" x="12" y="132">C</text>
+    <text class="item" x="85" y="132">████████████████████ 90%</text>
+    <text class="content-green" x="12" y="148">C++</text>
+    <text class="item" x="85" y="148">████████████████░░░░ 80%</text>
+    <text class="content-yellow" x="12" y="164">PHP</text>
+    <text class="item" x="85" y="164">████████████░░░░░░░░ 60%</text>
+    <text class="content-yellow" x="12" y="180">SQL</text>
+    <text class="item" x="85" y="180">██████████████░░░░░░ 70%</text>
+    <text class="content-yellow" x="12" y="196">HTML/CSS</text>
+    <text class="item" x="85" y="196">██████████░░░░░░░░░░ 50%</text>
     
-    <text class="content-dim" x="12" y="238">─── Ferramentas ───</text>
-    <text class="item" x="12" y="256">• Git / GitHub</text>
-    <text class="item" x="12" y="272">• Linux</text>
-    <text class="item" x="12" y="288">• VS Code</text>
+    <text class="content-dim" x="12" y="220">─── Ferramentas ───</text>
+    <text class="item" x="12" y="238">• Git / GitHub</text>
+    <text class="item" x="12" y="254">• Linux</text>
+    <text class="item" x="12" y="270">• VS Code</text>
     
-    <text class="content-dim" x="12" y="312">─── Aprendendo ───</text>
-    <text class="content-purple learning" x="12" y="330">• Node.js / Next.js</text>
-    <text class="content-purple learning" x="12" y="346">• TDD / CI/CD</text>
-    <text class="content-purple learning" x="12" y="362">• Docker</text>
+    <text class="content-dim" x="12" y="294">─── Aprendendo ───</text>
+    <text class="content-purple learning" x="12" y="312">• Node.js / Next.js</text>
+    <text class="content-purple learning" x="12" y="328">• TDD / CI/CD</text>
+    <text class="content-purple learning" x="12" y="344">• Docker</text>
   </g>
   
   <!-- CENTER PANEL: Conteúdo -->
@@ -160,7 +157,7 @@
     
     <text class="content" x="660" y="140">Ciências da Computação</text>
     <text class="content-green" x="660" y="156">@ IFNMG - Montes Claros</text>
-    <text class="content-dim" x="660" y="172">7º período</text>
+    <text class="content-dim" x="660" y="172">7º período (cursando)</text>
     
     <text class="content-dim" x="660" y="200">─────────────────────</text>
     
@@ -183,11 +180,8 @@
     
     <text class="content-dim" x="660" y="439">─────────────────────</text>
 
-    <a href="https://www.linkedin.com/in/joao-victor-araujo-629392275/" target="_blank">
-      <text class="content-link" x="660" y="460">LinkedIn ↗</text>
-    </a>
     <a href="https://github.com/jotavsevla" target="_blank">
-      <text class="content-link" x="740" y="460">GitHub ↗</text>
+      <text class="content-link" x="660" y="460">GitHub ↗</text>
     </a>
   </g>
   
@@ -196,10 +190,7 @@
     <rect class="statusbar" x="0" y="480" width="900" height="20"/>
     <rect class="statusbar-green" x="0" y="480" width="120" height="20"/>
     <text class="title-active" x="10" y="493">● OPEN TO WORK</text>
-    <text class="statusbar-text" x="140" y="493">↑/↓: navegar</text>
-    <text class="statusbar-text" x="250" y="493">←/→: painéis</text>
-    <text class="statusbar-text" x="360" y="493">enter: abrir</text>
-    <text class="statusbar-text" x="750" y="493">jvapa v2.0.0</text>
+    <text class="statusbar-text" x="800" y="493">jvapa v2.0.0</text>
     <rect class="cursor" x="875" y="483" width="8" height="12"/>
   </g>
 </svg>
