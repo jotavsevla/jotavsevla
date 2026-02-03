@@ -46,197 +46,247 @@
     .fade2 { animation: fadeIn 0.3s ease-out 0.2s both; }
     .fade3 { animation: fadeIn 0.3s ease-out 0.3s both; }
     .fade4 { animation: fadeIn 0.3s ease-out 0.4s both; }
+    .bar-bg { fill: #30363d; }
+    .bar-green { fill: #7ee787; }
+    .bar-yellow { fill: #d29922; }
+    .pct { fill: #6e7681; font-family: 'Consolas', 'Monaco', monospace; font-size: 11px; }
     a { cursor: pointer; }
     a:hover .item { fill: #c9d1d9; transition: fill 0.2s; }
     a:hover .item-selected { fill: #ffffff; transition: fill 0.2s; }
     a:hover .content-link { fill: #79c0ff; transition: fill 0.2s; }
-    a:hover rect.hover-bg { fill: rgba(88, 166, 255, 0.1); }
   </style>
-  
+
   <!-- Background -->
   <rect class="bg" width="900" height="800"/>
-  
+
   <!-- LEFT PANEL: Menu/Projetos -->
   <g class="fade1">
     <rect class="panel-border" x="5" y="5" width="280" height="770" rx="2"/>
     <rect class="panel-header" x="6" y="6" width="278" height="20" rx="2"/>
     <rect class="title-bg" x="10" y="8" width="75" height="16" rx="2"/>
     <text class="title-active" x="15" y="20">Projetos</text>
-    
+
     <!-- Lista de projetos -->
     <a href="https://github.com/jotavsevla/aguaVIVA" target="_blank">
       <rect class="highlight-bar" x="8" y="32" width="274" height="18"/>
       <text class="item-num" x="12" y="46">1.</text>
-      <text class="item-selected" x="28" y="46">🌊 aguaVIVA - Sistema Logístico</text>
+      <text class="item-selected" x="28" y="46">aguaVIVA - Sist. Logistico</text>
     </a>
 
     <a href="https://github.com/jotavsevla?tab=repositories&amp;q=&amp;type=&amp;language=c" target="_blank">
-      <rect class="hover-bg" x="8" y="54" width="274" height="18" fill="transparent"/>
+      <rect x="8" y="54" width="274" height="18" fill="transparent"/>
       <text class="item-num" x="12" y="68">2.</text>
-      <text class="item" x="28" y="68">🧮 Algoritmos e Estruturas em C</text>
+      <text class="item" x="28" y="68">Algoritmos e Estruturas em C</text>
     </a>
 
     <a href="https://github.com/jotavsevla?tab=repositories" target="_blank">
-      <rect class="hover-bg" x="8" y="76" width="274" height="18" fill="transparent"/>
+      <rect x="8" y="76" width="274" height="18" fill="transparent"/>
       <text class="item-num" x="12" y="90">3.</text>
-      <text class="item" x="28" y="90">📚 Projetos acadêmicos IFNMG</text>
+      <text class="item" x="28" y="90">Projetos academicos IFNMG</text>
     </a>
 
-    <a href="https://curso.dev" target="_blank">
-      <rect class="hover-bg" x="8" y="98" width="274" height="18" fill="transparent"/>
+    <a href="https://github.com/jotavsevla" target="_blank">
+      <rect x="8" y="98" width="274" height="18" fill="transparent"/>
       <text class="item-num" x="12" y="112">4.</text>
-      <text class="item" x="28" y="112">🚀 [Em breve] curso.dev projects</text>
+      <text class="item" x="28" y="112">Portfolio Web em Dev</text>
     </a>
 
     <!-- Separator -->
     <line x1="10" y1="128" x2="280" y2="128" stroke="#30363d" stroke-width="1"/>
 
-    <!-- Skills section -->
-    <text class="content-green" x="12" y="165">C</text>
-    <text class="item" x="105" y="165">███████████████░░ 90%</text>
-    <text class="content-green" x="12" y="190">C++</text>
-    <text class="item" x="105" y="190">██████████████░░░ 80%</text>
-    <text class="content-yellow" x="12" y="215">PHP</text>
-    <text class="item" x="105" y="215">██████████░░░░░░░ 60%</text>
-    <text class="content-yellow" x="12" y="240">SQL</text>
-    <text class="item" x="105" y="240">████████████░░░░░ 70%</text>
-    <text class="content-yellow" x="12" y="265">HTML/CSS</text>
-    <text class="item" x="105" y="265">█████████░░░░░░░░ 50%</text>
+    <!-- Skills bars com SVG rects -->
+    <text class="content-green" x="12" y="155">C</text>
+    <rect class="bar-bg" x="105" y="147" width="130" height="8" rx="3"/>
+    <rect class="bar-green" x="105" y="147" width="117" height="8" rx="3"/>
+    <text class="pct" x="240" y="155">90%</text>
+
+    <text class="content-green" x="12" y="177">C++</text>
+    <rect class="bar-bg" x="105" y="169" width="130" height="8" rx="3"/>
+    <rect class="bar-green" x="105" y="169" width="104" height="8" rx="3"/>
+    <text class="pct" x="240" y="177">80%</text>
+
+    <text class="content-green" x="12" y="199">Java</text>
+    <rect class="bar-bg" x="105" y="191" width="130" height="8" rx="3"/>
+    <rect class="bar-green" x="105" y="191" width="91" height="8" rx="3"/>
+    <text class="pct" x="240" y="199">70%</text>
+
+    <text class="content-yellow" x="12" y="221">JavaScript</text>
+    <rect class="bar-bg" x="105" y="213" width="130" height="8" rx="3"/>
+    <rect class="bar-yellow" x="105" y="213" width="85" height="8" rx="3"/>
+    <text class="pct" x="240" y="221">65%</text>
+
+    <text class="content-yellow" x="12" y="243">Python</text>
+    <rect class="bar-bg" x="105" y="235" width="130" height="8" rx="3"/>
+    <rect class="bar-yellow" x="105" y="235" width="85" height="8" rx="3"/>
+    <text class="pct" x="240" y="243">65%</text>
+
+    <text class="content-yellow" x="12" y="265">PHP</text>
+    <rect class="bar-bg" x="105" y="257" width="130" height="8" rx="3"/>
+    <rect class="bar-yellow" x="105" y="257" width="78" height="8" rx="3"/>
+    <text class="pct" x="240" y="265">60%</text>
+
+    <text class="content-yellow" x="12" y="287">SQL</text>
+    <rect class="bar-bg" x="105" y="279" width="130" height="8" rx="3"/>
+    <rect class="bar-yellow" x="105" y="279" width="91" height="8" rx="3"/>
+    <text class="pct" x="240" y="287">70%</text>
+
+    <text class="content-yellow" x="12" y="309">HTML/CSS</text>
+    <rect class="bar-bg" x="105" y="301" width="130" height="8" rx="3"/>
+    <rect class="bar-yellow" x="105" y="301" width="65" height="8" rx="3"/>
+    <text class="pct" x="240" y="309">50%</text>
 
     <!-- Tech Tags -->
-    <text class="content-dim" x="12" y="300">─── Tecnologias ───</text>
+    <text class="content-dim" x="12" y="335">--- Tecnologias ---</text>
 
-    <!-- Row 1 -->
-    <rect class="tag-bg-green" x="12" y="315" width="35" height="18" rx="9"/>
-    <text class="tag" x="19" y="327">C</text>
+    <!-- Row 1: C, C++, Java, Python, PHP -->
+    <rect class="tag-bg-green" x="12" y="350" width="25" height="18" rx="9"/>
+    <text class="tag" x="18" y="363">C</text>
 
-    <rect class="tag-bg-green" x="52" y="315" width="42" height="18" rx="9"/>
-    <text class="tag" x="59" y="327">C++</text>
+    <rect class="tag-bg-green" x="42" y="350" width="38" height="18" rx="9"/>
+    <text class="tag" x="49" y="363">C++</text>
 
-    <rect class="tag-bg-yellow" x="99" y="315" width="42" height="18" rx="9"/>
-    <text class="tag" x="106" y="327">PHP</text>
+    <rect class="tag-bg-green" x="85" y="350" width="42" height="18" rx="9"/>
+    <text class="tag" x="92" y="363">Java</text>
 
-    <rect class="tag-bg-yellow" x="146" y="315" width="42" height="18" rx="9"/>
-    <text class="tag" x="153" y="327">SQL</text>
+    <rect class="tag-bg-yellow" x="132" y="350" width="58" height="18" rx="9"/>
+    <text class="tag" x="139" y="363">Python</text>
 
-    <rect class="tag-bg-blue" x="193" y="315" width="35" height="18" rx="9"/>
-    <text class="tag" x="200" y="327">JS</text>
+    <rect class="tag-bg-yellow" x="195" y="350" width="38" height="18" rx="9"/>
+    <text class="tag" x="202" y="363">PHP</text>
 
-    <!-- Row 2 -->
-    <rect class="tag-bg-purple" x="12" y="338" width="70" height="18" rx="9"/>
-    <text class="tag" x="19" y="350">Node.js</text>
+    <!-- Row 2: JS, Node.js, HTML, CSS -->
+    <rect class="tag-bg-blue" x="12" y="373" width="30" height="18" rx="9"/>
+    <text class="tag" x="19" y="386">JS</text>
 
-    <rect class="tag-bg-yellow" x="87" y="338" width="75" height="18" rx="9"/>
-    <text class="tag" x="94" y="350">HTML/CSS</text>
+    <rect class="tag-bg-purple" x="47" y="373" width="65" height="18" rx="9"/>
+    <text class="tag" x="54" y="386">Node.js</text>
 
-    <rect class="tag-bg-gray" x="167" y="338" width="42" height="18" rx="9"/>
-    <text class="tag" x="174" y="350">Git</text>
+    <rect class="tag-bg-yellow" x="117" y="373" width="42" height="18" rx="9"/>
+    <text class="tag" x="124" y="386">HTML</text>
 
-    <!-- Row 3 -->
-    <rect class="tag-bg-purple" x="12" y="361" width="62" height="18" rx="9"/>
-    <text class="tag" x="19" y="373">Docker</text>
+    <rect class="tag-bg-blue" x="164" y="373" width="35" height="18" rx="9"/>
+    <text class="tag" x="171" y="386">CSS</text>
 
-    <rect class="tag-bg-gray" x="79" y="361" width="52" height="18" rx="9"/>
-    <text class="tag" x="86" y="373">Linux</text>
+    <!-- Row 3: SQL, PostgreSQL, Git -->
+    <rect class="tag-bg-yellow" x="12" y="396" width="35" height="18" rx="9"/>
+    <text class="tag" x="19" y="409">SQL</text>
 
-    <rect class="tag-bg-blue" x="136" y="361" width="52" height="18" rx="9"/>
-    <text class="tag" x="143" y="373">MySQL</text>
+    <rect class="tag-bg-blue" x="52" y="396" width="85" height="18" rx="9"/>
+    <text class="tag" x="59" y="409">PostgreSQL</text>
 
-    <text class="content-dim" x="12" y="405">─── Ferramentas ───</text>
-    <text class="item" x="12" y="435">• Git / GitHub</text>
-    <text class="item" x="12" y="462">• Linux</text>
-    <text class="item" x="12" y="489">• VS Code</text>
+    <rect class="tag-bg-gray" x="142" y="396" width="35" height="18" rx="9"/>
+    <text class="tag" x="149" y="409">Git</text>
 
-    <text class="content-dim" x="12" y="534">─── Aprendendo ───</text>
-    <text class="content-purple learning" x="12" y="564">• Node.js / Next.js</text>
-    <text class="content-purple learning" x="12" y="591">• TDD / CI/CD</text>
-    <text class="content-purple learning" x="12" y="618">• Docker</text>
+    <!-- Row 4: GitHub, Docker, TDD -->
+    <rect class="tag-bg-gray" x="12" y="419" width="58" height="18" rx="9"/>
+    <text class="tag" x="19" y="432">GitHub</text>
+
+    <rect class="tag-bg-purple" x="75" y="419" width="58" height="18" rx="9"/>
+    <text class="tag" x="82" y="432">Docker</text>
+
+    <rect class="tag-bg-green" x="138" y="419" width="35" height="18" rx="9"/>
+    <text class="tag" x="145" y="432">TDD</text>
+
+    <!-- Ferramentas -->
+    <text class="content-dim" x="12" y="462">--- Ferramentas ---</text>
+    <text class="item" x="12" y="487">* Git / GitHub</text>
+    <text class="item" x="12" y="509">* Linux</text>
+    <text class="item" x="12" y="531">* VS Code</text>
+
+    <!-- Aprendendo -->
+    <text class="content-dim" x="12" y="565">--- Aprendendo ---</text>
+    <text class="content-purple learning" x="12" y="590">* Node.js / Next.js</text>
+    <text class="content-purple learning" x="12" y="612">* TDD / CI-CD</text>
+    <text class="content-purple learning" x="12" y="634">* Docker</text>
   </g>
-  
-  <!-- CENTER PANEL: Conteúdo -->
+
+  <!-- CENTER PANEL: Conteudo -->
   <g class="fade2">
     <rect class="panel-border" x="290" y="5" width="350" height="770" rx="2"/>
     <rect class="panel-header" x="291" y="6" width="348" height="20" rx="2"/>
     <text class="title" x="300" y="20">jotavsevla/aguaVIVA (selecionado)</text>
-    
+
     <text class="content-title" x="300" y="50">Sistema de Gerenciamento</text>
-    <text class="content-title" x="300" y="72">Logístico para Distribuidora</text>
+    <text class="content-title" x="300" y="72">Logistico para Distribuidora</text>
 
-    <text class="content-dim" x="300" y="110">Status: Em desenvolvimento 🚧</text>
+    <text class="content-dim" x="300" y="110">Status: Em desenvolvimento</text>
 
-    <text class="content" x="300" y="145">Aplicação web completa para</text>
+    <text class="content" x="300" y="145">Aplicacao web completa para</text>
     <text class="content" x="300" y="167">gerenciamento de frotas, rotas e</text>
     <text class="content" x="300" y="189">demandas de uma distribuidora.</text>
 
-    <text class="content-dim" x="300" y="235">─── Stack ───</text>
-    <text class="content-green" x="300" y="265">• PHP + MySQL</text>
-    <text class="content-green" x="300" y="292">• APIs REST</text>
-    <text class="content-green" x="300" y="319">• OpenStreetMap + qGIS</text>
+    <text class="content-dim" x="300" y="235">--- Stack ---</text>
+    <text class="content-green" x="300" y="265">* Node.js + Next.js</text>
+    <text class="content-dim" x="310" y="287">(Frontend e Backend Web)</text>
+    <text class="content-yellow" x="300" y="312">* Python</text>
+    <text class="content-dim" x="310" y="334">(Solver de Frotas - 2o Backend)</text>
+    <text class="content-green" x="300" y="359">* PostgreSQL</text>
+    <text class="content-green" x="300" y="384">* APIs REST</text>
 
-    <text class="content-dim" x="300" y="360">─── Segurança ───</text>
-    <text class="content-green" x="300" y="390">✓ Hash de senhas (bcrypt)</text>
-    <text class="content-green" x="300" y="417">✓ Proteção SQL injection</text>
-    <text class="content-green" x="300" y="444">✓ Sanitização de inputs</text>
+    <text class="content-dim" x="300" y="420">--- Seguranca ---</text>
+    <text class="content-green" x="300" y="450">[x] Hash de senhas (bcrypt)</text>
+    <text class="content-green" x="300" y="477">[x] Protecao SQL injection</text>
+    <text class="content-green" x="300" y="504">[x] Sanitizacao de inputs</text>
 
-    <text class="content-dim" x="300" y="485">─── Roadmap ───</text>
-    <text class="content" x="300" y="515">○ Testes automatizados (TDD)</text>
-    <text class="content" x="300" y="542">○ CI/CD com GitHub Actions</text>
-    <text class="content" x="300" y="569">○ Containerização (Docker)</text>
-    <text class="content" x="300" y="596">○ Otimização de rotas (OVRP)</text>
+    <text class="content-dim" x="300" y="545">--- Roadmap ---</text>
+    <text class="content" x="300" y="575">[ ] Testes automatizados (TDD)</text>
+    <text class="content" x="300" y="602">[ ] CI/CD com GitHub Actions</text>
+    <text class="content" x="300" y="629">[ ] Containerizacao (Docker)</text>
+    <text class="content" x="300" y="656">[ ] Otimizacao de rotas (OVRP)</text>
 
     <a href="https://github.com/jotavsevla/aguaVIVA" target="_blank">
-      <text class="content-link" x="300" y="640">github.com/jotavsevla/aguaVIVA</text>
+      <text class="content-link" x="300" y="700">github.com/jotavsevla/aguaVIVA</text>
     </a>
   </g>
-  
+
   <!-- RIGHT PANEL: Sobre -->
   <g class="fade3">
     <rect class="panel-border" x="645" y="5" width="250" height="770" rx="2"/>
     <rect class="panel-header" x="646" y="6" width="248" height="20" rx="2"/>
     <text class="title" x="655" y="20">sobre.txt</text>
-    
+
     <text class="big-title" x="660" y="65">JVAPA</text>
-    <text class="big-subtitle" x="660" y="92">João Victor A. P.</text>
-    <text class="big-subtitle" x="660" y="112">de Araújo</text>
+    <text class="big-subtitle" x="660" y="92">Joao Victor A. P.</text>
+    <text class="big-subtitle" x="660" y="112">de Araujo</text>
 
-    <text class="content-dim" x="660" y="150">─────────────────────</text>
+    <text class="content-dim" x="660" y="150">---------------------</text>
 
-    <text class="content" x="660" y="180">Ciências da Computação</text>
+    <text class="content" x="660" y="180">Ciencia da Computacao</text>
     <text class="content-green" x="660" y="202">@ IFNMG - Montes Claros</text>
-    <text class="content-dim" x="660" y="224">7º período (cursando)</text>
+    <text class="content-dim" x="660" y="224">7o periodo (cursando)</text>
 
-    <text class="content-dim" x="660" y="262">─────────────────────</text>
+    <text class="content-dim" x="660" y="262">---------------------</text>
 
-    <text class="content-green" x="660" y="292">💼 Experiência</text>
+    <text class="content-green" x="660" y="292">Experiencia</text>
     <text class="content" x="660" y="314">AeC - Suporte Meli</text>
     <text class="content-dim" x="660" y="336">1 ano e 6 meses (CLT)</text>
 
-    <text class="content-dim" x="660" y="374">─────────────────────</text>
+    <text class="content-dim" x="660" y="374">---------------------</text>
 
-    <text class="content-yellow" x="660" y="404">🎮 Ex-Pro Player</text>
+    <text class="content-yellow" x="660" y="404">Ex-Pro Player</text>
     <text class="content" x="660" y="426">Rainbow Six Siege</text>
-    <text class="content-dim" x="660" y="448">Vice-campeão nacional</text>
+    <text class="content-dim" x="660" y="448">Vice-campeao nacional</text>
 
-    <text class="content-dim" x="660" y="486">─────────────────────</text>
+    <text class="content-dim" x="660" y="486">---------------------</text>
 
-    <text class="content-purple" x="660" y="516">📖 Estudando:</text>
-    <a href="https://curso.dev" target="_blank">
-      <text class="content" x="660" y="538">curso.dev (Full-Stack)</text>
+    <text class="content-purple" x="660" y="516">Desenvolvendo:</text>
+    <a href="https://github.com/jotavsevla" target="_blank">
+      <text class="content" x="660" y="538">Projetos Full-Stack</text>
     </a>
 
-    <text class="content-dim" x="660" y="576">─────────────────────</text>
+    <text class="content-dim" x="660" y="576">---------------------</text>
 
     <a href="https://github.com/jotavsevla" target="_blank">
-      <text class="content-link" x="660" y="610">GitHub ↗</text>
+      <text class="content-link" x="660" y="610">GitHub -&gt;</text>
     </a>
   </g>
-  
+
   <!-- STATUSBAR -->
   <g class="fade4">
-    <rect class="statusbar" x="0" y="780" width="900" height="20"/>
-    <rect class="statusbar-green" x="0" y="780" width="145" height="20"/>
-    <text class="title-active" x="10" y="793">● OPEN TO WORK</text>
-    <text class="statusbar-text" x="770" y="793">jvapa v1.0.0</text>
-    <rect class="cursor" x="875" y="783" width="8" height="12"/>
+    <rect class="statusbar" x="5" y="780" width="890" height="20" rx="2"/>
+    <rect class="statusbar-green" x="5" y="780" width="145" height="20" rx="2"/>
+    <text class="title-active" x="15" y="793">&gt; OPEN TO WORK</text>
+    <text class="statusbar-text" x="765" y="793">jvapa v1.0.0</text>
+    <rect class="cursor" x="870" y="783" width="8" height="12"/>
   </g>
 </svg>
