@@ -67,34 +67,34 @@
     <text class="title-active" x="15" y="20">Projetos</text>
 
     <!-- Lista de projetos -->
-    <a href="https://github.com/jotavsevla/aguaVIVA" target="_blank">
+    <a href="https://github.com/jotavsevla/agua-viva-oop" target="_blank">
       <rect class="highlight-bar" x="8" y="32" width="274" height="18"/>
       <text class="item-num" x="12" y="46">1.</text>
-      <text class="item-selected" x="28" y="46">aguaVIVA - Sist. Logistico</text>
+      <text class="item-selected" x="28" y="46">agua-viva-oop (Java)</text>
     </a>
 
-    <a href="https://github.com/jotavsevla?tab=repositories&amp;q=&amp;type=&amp;language=c" target="_blank">
+    <a href="https://github.com/jotavsevla/algoritmos_e_estrutura_de_dados_em_C" target="_blank">
       <rect x="8" y="54" width="274" height="18" fill="transparent"/>
       <text class="item-num" x="12" y="68">2.</text>
       <text class="item" x="28" y="68">Algoritmos e Estruturas em C</text>
     </a>
 
-    <a href="https://github.com/jotavsevla?tab=repositories" target="_blank">
+    <a href="https://github.com/jotavsevla/OSA-projects" target="_blank">
       <rect x="8" y="76" width="274" height="18" fill="transparent"/>
       <text class="item-num" x="12" y="90">3.</text>
-      <text class="item" x="28" y="90">Projetos academicos IFNMG</text>
+      <text class="item" x="28" y="90">OSA - Projetos IFNMG</text>
     </a>
 
-    <a href="https://github.com/jotavsevla" target="_blank">
+    <a href="https://github.com/jotavsevla/tec_heuristica" target="_blank">
       <rect x="8" y="98" width="274" height="18" fill="transparent"/>
       <text class="item-num" x="12" y="112">4.</text>
-      <text class="item" x="28" y="112">Portfolio Web em Dev</text>
+      <text class="item" x="28" y="112">Tec. Heuristicas</text>
     </a>
 
     <!-- Separator -->
     <line x1="10" y1="128" x2="280" y2="128" stroke="#30363d" stroke-width="1"/>
 
-    <!-- Skills bars com SVG rects -->
+    <!-- Skills bars -->
     <text class="content-green" x="12" y="155">C</text>
     <rect class="bar-bg" x="105" y="147" width="130" height="8" rx="3"/>
     <rect class="bar-green" x="105" y="147" width="117" height="8" rx="3"/>
@@ -138,7 +138,6 @@
     <!-- Tech Tags -->
     <text class="content-dim" x="12" y="335">--- Tecnologias ---</text>
 
-    <!-- Row 1: C, C++, Java, Python, PHP -->
     <rect class="tag-bg-green" x="12" y="350" width="25" height="18" rx="9"/>
     <text class="tag" x="18" y="363">C</text>
 
@@ -154,7 +153,6 @@
     <rect class="tag-bg-yellow" x="195" y="350" width="38" height="18" rx="9"/>
     <text class="tag" x="202" y="363">PHP</text>
 
-    <!-- Row 2: JS, Node.js, HTML, CSS -->
     <rect class="tag-bg-blue" x="12" y="373" width="30" height="18" rx="9"/>
     <text class="tag" x="19" y="386">JS</text>
 
@@ -167,7 +165,6 @@
     <rect class="tag-bg-blue" x="164" y="373" width="35" height="18" rx="9"/>
     <text class="tag" x="171" y="386">CSS</text>
 
-    <!-- Row 3: SQL, PostgreSQL, Git -->
     <rect class="tag-bg-yellow" x="12" y="396" width="35" height="18" rx="9"/>
     <text class="tag" x="19" y="409">SQL</text>
 
@@ -177,7 +174,6 @@
     <rect class="tag-bg-gray" x="142" y="396" width="35" height="18" rx="9"/>
     <text class="tag" x="149" y="409">Git</text>
 
-    <!-- Row 4: GitHub, Docker, TDD -->
     <rect class="tag-bg-gray" x="12" y="419" width="58" height="18" rx="9"/>
     <text class="tag" x="19" y="432">GitHub</text>
 
@@ -204,24 +200,24 @@
   <g class="fade2">
     <rect class="panel-border" x="290" y="5" width="350" height="770" rx="2"/>
     <rect class="panel-header" x="291" y="6" width="348" height="20" rx="2"/>
-    <text class="title" x="300" y="20">jotavsevla/aguaVIVA (selecionado)</text>
+    <text class="title" x="300" y="20">jotavsevla/agua-viva-oop</text>
 
     <text class="content-title" x="300" y="50">Sistema de Gerenciamento</text>
     <text class="content-title" x="300" y="72">Logistico para Distribuidora</text>
 
     <text class="content-dim" x="300" y="110">Status: Em desenvolvimento</text>
 
-    <text class="content" x="300" y="145">Aplicacao web completa para</text>
-    <text class="content" x="300" y="167">gerenciamento de frotas, rotas e</text>
-    <text class="content" x="300" y="189">demandas de uma distribuidora.</text>
+    <text class="content" x="300" y="145">Aplicacao completa para gestao</text>
+    <text class="content" x="300" y="167">de pedidos, rotas e entregas</text>
+    <text class="content" x="300" y="189">em distribuidora de agua.</text>
 
     <text class="content-dim" x="300" y="235">--- Stack ---</text>
-    <text class="content-green" x="300" y="265">* Node.js + Next.js</text>
-    <text class="content-dim" x="310" y="287">(Frontend e Backend Web)</text>
-    <text class="content-yellow" x="300" y="312">* Python</text>
-    <text class="content-dim" x="310" y="334">(Solver de Frotas - 2o Backend)</text>
+    <text class="content-green" x="300" y="265">* Java 21 + JDBC</text>
+    <text class="content-dim" x="310" y="287">(Backend principal)</text>
+    <text class="content-yellow" x="300" y="312">* Python (Solver)</text>
+    <text class="content-dim" x="310" y="334">(CVRPTW / OR-Tools)</text>
     <text class="content-green" x="300" y="359">* PostgreSQL</text>
-    <text class="content-green" x="300" y="384">* APIs REST</text>
+    <text class="content-green" x="300" y="384">* Docker Compose</text>
 
     <text class="content-dim" x="300" y="420">--- Seguranca ---</text>
     <text class="content-green" x="300" y="450">[x] Hash de senhas (bcrypt)</text>
@@ -229,13 +225,13 @@
     <text class="content-green" x="300" y="504">[x] Sanitizacao de inputs</text>
 
     <text class="content-dim" x="300" y="545">--- Roadmap ---</text>
-    <text class="content" x="300" y="575">[ ] Testes automatizados (TDD)</text>
+    <text class="content-green" x="300" y="575">[x] Testes automatizados (TDD)</text>
     <text class="content" x="300" y="602">[ ] CI/CD com GitHub Actions</text>
-    <text class="content" x="300" y="629">[ ] Containerizacao (Docker)</text>
-    <text class="content" x="300" y="656">[ ] Otimizacao de rotas (OVRP)</text>
+    <text class="content-green" x="300" y="629">[x] Containerizacao (Docker)</text>
+    <text class="content-green" x="300" y="656">[x] Otimizacao de rotas (CVRPTW)</text>
 
-    <a href="https://github.com/jotavsevla/aguaVIVA" target="_blank">
-      <text class="content-link" x="300" y="700">github.com/jotavsevla/aguaVIVA</text>
+    <a href="https://github.com/jotavsevla/agua-viva-oop" target="_blank">
+      <text class="content-link" x="300" y="700">github.com/jotavsevla/agua-viva-oop</text>
     </a>
   </g>
 
@@ -259,7 +255,7 @@
 
     <text class="content-green" x="660" y="292">Experiencia</text>
     <text class="content" x="660" y="314">AeC - Suporte Meli</text>
-    <text class="content-dim" x="660" y="336">1 ano e 6 meses (CLT)</text>
+    <text class="content-dim" x="660" y="336">06/2024 -- 12/2025 (CLT)</text>
 
     <text class="content-dim" x="660" y="374">---------------------</text>
 
@@ -271,7 +267,7 @@
 
     <text class="content-purple" x="660" y="516">Desenvolvendo:</text>
     <a href="https://github.com/jotavsevla" target="_blank">
-      <text class="content" x="660" y="538">Projetos Full-Stack</text>
+      <text class="content" x="660" y="538">Backend + Solver Python</text>
     </a>
 
     <text class="content-dim" x="660" y="576">---------------------</text>
