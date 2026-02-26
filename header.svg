@@ -226,7 +226,7 @@
 
     <text class="content-dim" x="300" y="545">--- Roadmap ---</text>
     <text class="content-green" x="300" y="575">[x] Testes automatizados (TDD)</text>
-    <text class="content" x="300" y="602">[ ] CI/CD com GitHub Actions</text>
+    <text class="content-green" x="300" y="602">[x] CI/CD com GitHub Actions</text>
     <text class="content-green" x="300" y="629">[x] Containerizacao (Docker)</text>
     <text class="content-green" x="300" y="656">[x] Otimizacao de rotas (CVRPTW)</text>
 
