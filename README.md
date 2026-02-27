@@ -27,7 +27,7 @@
   <a href="mailto:jotavsevla@gmail.com">
     <img src="https://img.shields.io/badge/-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
-  <a href="https://github.com/jotavsevla/aguaVIVA">
+  <a href="https://github.com/jotavsevla/agua-viva-oop">
     <img src="https://img.shields.io/badge/-Projeto_Principal-238636?style=for-the-badge&logo=github&logoColor=white" alt="aguaVIVA"/>
   </a>
 </p>
