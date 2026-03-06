@@ -19,6 +19,7 @@
     .title-active { fill: #0d1117; font-family: 'Consolas', 'Monaco', monospace; font-size: 15px; }
     .title-bg { fill: #58a6ff; }
     .item { fill: #8b949e; font-family: 'Consolas', 'Monaco', monospace; font-size: 13px; }
+    .item-purple { fill: #a371f7; font-family: 'Consolas', 'Monaco', monospace; font-size: 13px; }
     .item-selected { fill: #c9d1d9; font-family: 'Consolas', 'Monaco', monospace; font-size: 13px; }
     .item-num { fill: #6e7681; font-family: 'Consolas', 'Monaco', monospace; font-size: 12px; }
     .highlight-bar { fill: #238636; }
@@ -139,61 +140,62 @@
     <text class="content-dim" x="12" y="335">--- Tecnologias ---</text>
 
     <rect class="tag-bg-green" x="12" y="350" width="25" height="18" rx="9"/>
-    <text class="tag" x="18" y="363">C</text>
+    <text class="tag" x="19" y="363">C</text>
 
     <rect class="tag-bg-green" x="42" y="350" width="38" height="18" rx="9"/>
-    <text class="tag" x="49" y="363">C++</text>
+    <text class="tag" x="50" y="363">C++</text>
 
     <rect class="tag-bg-green" x="85" y="350" width="42" height="18" rx="9"/>
-    <text class="tag" x="92" y="363">Java</text>
+    <text class="tag" x="93" y="363">Java</text>
 
     <rect class="tag-bg-yellow" x="132" y="350" width="58" height="18" rx="9"/>
-    <text class="tag" x="139" y="363">Python</text>
+    <text class="tag" x="140" y="363">Python</text>
 
     <rect class="tag-bg-yellow" x="195" y="350" width="38" height="18" rx="9"/>
-    <text class="tag" x="202" y="363">PHP</text>
+    <text class="tag" x="203" y="363">PHP</text>
 
     <rect class="tag-bg-blue" x="12" y="373" width="30" height="18" rx="9"/>
-    <text class="tag" x="19" y="386">JS</text>
+    <text class="tag" x="20" y="386">JS</text>
 
-    <rect class="tag-bg-purple" x="47" y="373" width="65" height="18" rx="9"/>
-    <text class="tag" x="54" y="386">Node.js</text>
+    <rect class="tag-bg-gray" x="47" y="373" width="65" height="18" rx="9"/>
+    <text class="tag" x="55" y="386">Node.js</text>
 
     <rect class="tag-bg-yellow" x="117" y="373" width="42" height="18" rx="9"/>
-    <text class="tag" x="124" y="386">HTML</text>
+    <text class="tag" x="125" y="386">HTML</text>
 
     <rect class="tag-bg-blue" x="164" y="373" width="35" height="18" rx="9"/>
-    <text class="tag" x="171" y="386">CSS</text>
+    <text class="tag" x="172" y="386">CSS</text>
 
     <rect class="tag-bg-yellow" x="12" y="396" width="35" height="18" rx="9"/>
-    <text class="tag" x="19" y="409">SQL</text>
+    <text class="tag" x="20" y="409">SQL</text>
 
     <rect class="tag-bg-blue" x="52" y="396" width="85" height="18" rx="9"/>
-    <text class="tag" x="59" y="409">PostgreSQL</text>
+    <text class="tag" x="60" y="409">PostgreSQL</text>
 
     <rect class="tag-bg-gray" x="142" y="396" width="35" height="18" rx="9"/>
-    <text class="tag" x="149" y="409">Git</text>
+    <text class="tag" x="150" y="409">Git</text>
 
     <rect class="tag-bg-gray" x="12" y="419" width="58" height="18" rx="9"/>
-    <text class="tag" x="19" y="432">GitHub</text>
+    <text class="tag" x="20" y="432">GitHub</text>
 
-    <rect class="tag-bg-purple" x="75" y="419" width="58" height="18" rx="9"/>
-    <text class="tag" x="82" y="432">Docker</text>
+    <rect class="tag-bg-purple learning" x="75" y="419" width="58" height="18" rx="9"/>
+    <text class="tag learning" x="83" y="432">Docker</text>
 
-    <rect class="tag-bg-green" x="138" y="419" width="35" height="18" rx="9"/>
-    <text class="tag" x="145" y="432">TDD</text>
+    <rect class="tag-bg-purple learning" x="138" y="419" width="35" height="18" rx="9"/>
+    <text class="tag learning" x="146" y="432">TDD</text>
 
     <!-- Ferramentas -->
     <text class="content-dim" x="12" y="462">--- Ferramentas ---</text>
-    <text class="item" x="12" y="487">* Git / GitHub</text>
-    <text class="item" x="12" y="509">* Linux</text>
-    <text class="item" x="12" y="531">* VS Code</text>
+    <text class="item-purple learning" x="12" y="487">* Git / GitHub</text>
+    <text class="item-purple learning" x="12" y="509">* Linux</text>
+    <text class="item-purple learning" x="12" y="531">* VS Code</text>
+    <text class="item-purple learning" x="12" y="553">* Docker</text>
+    <text class="item-purple learning" x="12" y="575">* TDD</text>
 
     <!-- Aprendendo -->
-    <text class="content-dim" x="12" y="565">--- Aprendendo ---</text>
-    <text class="content-purple learning" x="12" y="590">* Node.js / Next.js</text>
-    <text class="content-purple learning" x="12" y="612">* TDD / CI-CD</text>
-    <text class="content-purple learning" x="12" y="634">* Docker</text>
+    <text class="content-dim" x="12" y="610">--- Aprendendo ---</text>
+    <text class="content-dim" x="12" y="635">* Node.js / Next.js</text>
+    <text class="content-dim" x="12" y="657">* CI-CD</text>
   </g>
 
   <!-- CENTER PANEL: Conteudo -->
