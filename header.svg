@@ -194,7 +194,7 @@
     <!-- Aprendendo -->
     <text class="content-dim" x="12" y="585">--- Aprendendo ---</text>
     <text class="content-dim" x="12" y="610">* Node.js / Next.js</text>
-    <text class="content-dim" x="12" y="622">* CI-CD</text>
+    <text class="content-dim" x="12" y="635">* CI-CD</text>
   </g>
 
   <!-- CENTER PANEL: Conteudo -->
