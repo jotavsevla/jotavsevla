@@ -188,13 +188,13 @@
     <text class="content-dim" x="12" y="462">--- Ferramentas ---</text>
     <text class="item-purple learning" x="12" y="487">* Git / GitHub</text>
     <text class="item-purple learning" x="12" y="509">* Linux</text>
-    <text class="item-purple learning" x="12" y="553">* Docker</text>
-    <text class="item-purple learning" x="12" y="575">* TDD</text>
+    <text class="item-purple learning" x="12" y="531">* Docker</text>
+    <text class="item-purple learning" x="12" y="553">* TDD</text>
 
     <!-- Aprendendo -->
-    <text class="content-dim" x="12" y="610">--- Aprendendo ---</text>
-    <text class="content-dim" x="12" y="635">* Node.js / Next.js</text>
-    <text class="content-dim" x="12" y="657">* CI-CD</text>
+    <text class="content-dim" x="12" y="585">--- Aprendendo ---</text>
+    <text class="content-dim" x="12" y="610">* Node.js / Next.js</text>
+    <text class="content-dim" x="12" y="622">* CI-CD</text>
   </g>
 
   <!-- CENTER PANEL: Conteudo -->
