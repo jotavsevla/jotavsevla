@@ -188,7 +188,6 @@
     <text class="content-dim" x="12" y="462">--- Ferramentas ---</text>
     <text class="item-purple learning" x="12" y="487">* Git / GitHub</text>
     <text class="item-purple learning" x="12" y="509">* Linux</text>
-    <text class="item-purple learning" x="12" y="531">* VS Code</text>
     <text class="item-purple learning" x="12" y="553">* Docker</text>
     <text class="item-purple learning" x="12" y="575">* TDD</text>
 
