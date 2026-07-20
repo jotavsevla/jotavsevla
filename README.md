@@ -52,7 +52,7 @@
 
 ### 🚀 Projetos em destaque
 
-- **[agua-viva-oop](https://github.com/jotavsevla/agua-viva-oop)** — Backend logístico em **Java stateless** (sem framework web) + solver **Python (OR-Tools)**. PostgreSQL com **migrations idempotentes**, idempotência por canal+chave, outbox/SSE, **contract tests** (OpenAPI como fonte de verdade) e **mutation testing (PIT 95/95)**. CI/CD com paridade local via `mise`.
+- **agua-viva-oop** *(privado — produto em desenvolvimento; demo pública no roadmap)* — Backend logístico em **Java stateless** (sem framework web) + solver **Python (OR-Tools)**. PostgreSQL com **migrations idempotentes**, idempotência por canal+chave, outbox/SSE, **contract tests** (OpenAPI como fonte de verdade) e **mutation testing (PIT 95/95)**. CI/CD com paridade local via `mise`.
 - **auto-fgts** *(privado)* — **Automação (RPA)** para o FGTS Digital: worker **Playwright + BullMQ/Redis**, dashboard **Next.js** e distribuição Windows com **auto-update** via GitHub Releases. Monorepo TypeScript em Docker.
 - **[OSA-projects](https://github.com/jotavsevla/OSA-projects)** — Fundamentos do byte ao índice: **serialização** de registros, empacotamento, **Árvore B** de ordem configurável e motor de busca com **índice invertido**. Computação é ordenada, serializada, sequencial, relacional — e é correlacionando as estruturas que o difícil vira simples.
 

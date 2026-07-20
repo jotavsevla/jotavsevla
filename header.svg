@@ -68,11 +68,9 @@
     <text class="title-active" x="15" y="20">Projetos</text>
 
     <!-- Lista de projetos -->
-    <a href="https://github.com/jotavsevla/agua-viva-oop" target="_blank">
-      <rect class="highlight-bar" x="8" y="32" width="274" height="18"/>
-      <text class="item-num" x="12" y="46">1.</text>
-      <text class="item-selected" x="28" y="46">agua-viva-oop (Java)</text>
-    </a>
+    <rect class="highlight-bar" x="8" y="32" width="274" height="18"/>
+    <text class="item-num" x="12" y="46">1.</text>
+    <text class="item-selected" x="28" y="46">agua-viva-oop (Java, privado)</text>
 
     <a href="https://github.com/jotavsevla/algoritmos_e_estrutura_de_dados_em_C" target="_blank">
       <rect x="8" y="54" width="274" height="18" fill="transparent"/>
@@ -200,7 +198,7 @@
     <text class="content-title" x="300" y="50">Sistema de Gerenciamento</text>
     <text class="content-title" x="300" y="72">Logistico para Distribuidora</text>
 
-    <text class="content-dim" x="300" y="110">Status: Em desenvolvimento</text>
+    <text class="content-dim" x="300" y="110">Status: Produto em desenvolvimento</text>
 
     <text class="content" x="300" y="145">Aplicacao completa para gestao</text>
     <text class="content" x="300" y="167">de pedidos, rotas e entregas</text>
@@ -225,9 +223,7 @@
     <text class="content-green" x="300" y="629">[x] Mutation testing (PIT 95/95)</text>
     <text class="content-green" x="300" y="656">[x] Contract tests (OpenAPI)</text>
 
-    <a href="https://github.com/jotavsevla/agua-viva-oop" target="_blank">
-      <text class="content-link" x="300" y="700">github.com/jotavsevla/agua-viva-oop</text>
-    </a>
+    <text class="content-dim" x="300" y="700">Codigo privado - demo publica no roadmap</text>
   </g>
 
   <!-- RIGHT PANEL: Sobre -->
