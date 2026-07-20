@@ -5,12 +5,12 @@
 <h3 align="center">Backend com pegada de plataforma</h3>
 
 <p align="center">
-  Estudante de Ciência da Computação (IFNMG, 7º período) e estagiário de desenvolvimento no Grupo.Con / Doctor.Con.<br/>
+  Estudante de Ciência da Computação (IFNMG, 7º período), aberto a oportunidades em desenvolvimento.<br/>
   Trabalho no <b>backend</b> pensando no sistema inteiro: modelo o banco com <b>migrations como fonte única do schema</b>,<br/>
   cuido de <b>CI/CD</b> (GitHub Actions com paridade local), <b>infraestrutura em container</b> e <b>segurança</b> —<br/>
   segredos fora do código, varredura com <code>gitleaks</code> e roles de banco com menor privilégio.<br/>
-  Em produção no estágio: <b>RPA para emissão de GFD no FGTS Digital</b> e <b>cruzamento de dados relacionais</b><br/>
-  de sistemas do governo para gerar informação a interessados. Qualidade sustentada por <b>TDD</b> com testes de integração em banco real.
+  Deixei em produção no estágio (Grupo.Con / Doctor.Con, 2026): <b>RPA para emissão de GFD no FGTS Digital</b> e<br/>
+  <b>cruzamento de dados relacionais</b> de sistemas do governo. Qualidade sustentada por <b>TDD</b> com testes de integração em banco real.
 </p>
 
 <!-- Linguagens -->
