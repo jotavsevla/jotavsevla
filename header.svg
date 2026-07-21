@@ -70,7 +70,7 @@
     <!-- Lista de projetos -->
     <rect class="highlight-bar" x="8" y="32" width="274" height="18"/>
     <text class="item-num" x="12" y="46">1.</text>
-    <text class="item-selected" x="28" y="46">agua-viva-oop (Java, privado)</text>
+    <text class="item-selected" x="28" y="46">agua-viva-oop (privado)</text>
 
     <a href="https://github.com/jotavsevla/algoritmos_e_estrutura_de_dados_em_C" target="_blank">
       <rect x="8" y="54" width="274" height="18" fill="transparent"/>
@@ -109,7 +109,7 @@
     <rect class="bar-green" x="105" y="191" width="98" height="8" rx="3"/>
     <text class="pct" x="240" y="199">75%</text>
 
-    <text class="content-yellow" x="12" y="221">TypeScript</text>
+    <text class="content-yellow" x="12" y="221">TS</text>
     <rect class="bar-bg" x="105" y="213" width="130" height="8" rx="3"/>
     <rect class="bar-yellow" x="105" y="213" width="91" height="8" rx="3"/>
     <text class="pct" x="240" y="221">70%</text>
@@ -223,7 +223,7 @@
     <text class="content-green" x="300" y="629">[x] Mutation testing (PIT 95/95)</text>
     <text class="content-green" x="300" y="656">[x] Contract tests (OpenAPI)</text>
 
-    <text class="content-dim" x="300" y="700">Codigo privado - demo publica no roadmap</text>
+    <text class="content-dim" x="300" y="700">Codigo privado - demo no roadmap</text>
   </g>
 
   <!-- RIGHT PANEL: Sobre -->
@@ -245,8 +245,8 @@
     <text class="content-dim" x="660" y="230">---------------------</text>
 
     <text class="content-green" x="660" y="256">Experiencia</text>
-    <text class="content" x="660" y="277">Dev - Doctor.Con</text>
-    <text class="content-dim" x="660" y="295">03/2026 -- 07/2026 (Estagio)</text>
+    <text class="content" x="660" y="277">Estagio dev - Doctor.Con</text>
+    <text class="content-dim" x="660" y="295">03/2026 -- 07/2026</text>
     <text class="content" x="660" y="318">AeC - Suporte Meli</text>
     <text class="content-dim" x="660" y="336">06/2024 -- 12/2025 (CLT)</text>
 
