@@ -5,7 +5,7 @@
 <h3 align="center">Backend com pegada de plataforma</h3>
 
 <p align="center">
-  Estudante de Ciência da Computação (IFNMG, 7º período), aberto a oportunidades em desenvolvimento.<br/>
+  Estudante de Ciência da Computação no IFNMG, aberto a oportunidades em desenvolvimento.<br/>
   Trabalho no <b>backend</b> pensando no sistema inteiro: modelo o banco com <b>migrations como fonte única do schema</b>,<br/>
   cuido de <b>CI/CD</b> (GitHub Actions com paridade local), <b>infraestrutura em container</b> e <b>segurança</b> —<br/>
   segredos fora do código, varredura com <code>gitleaks</code> e roles de banco com menor privilégio.<br/>
@@ -52,9 +52,12 @@
 
 ### 🚀 Projetos em destaque
 
-- **agua-viva-oop** *(privado — produto em desenvolvimento; demo pública no roadmap)* — Backend logístico em **Java stateless** (sem framework web) + solver **Python (OR-Tools)**. PostgreSQL com **migrations idempotentes**, idempotência por canal+chave, outbox/SSE, **contract tests** (OpenAPI como fonte de verdade) e **mutation testing (PIT 95/95)**. CI/CD com paridade local via `mise`.
+- **[Portfólio](https://portfolio.jvapa.com.br/)** · [código](https://github.com/jotavsevla/jotavsevla-portfolio) — Cases bilíngues com a relação explícita entre produto privado, protótipo público e evidência técnica.
+- **Água Viva OOP** *(produto atual privado)* · [protótipo público](https://github.com/jotavsevla/aguaVIVA) — O case atual combina backend logístico em Java e solver Python; o repositório público preserva a fundação anterior em Next.js, PostgreSQL, migrations, Docker e testes de integração.
 - **auto-fgts** *(privado)* — **Automação (RPA)** para o FGTS Digital: worker **Playwright + BullMQ/Redis**, dashboard **Next.js** e distribuição Windows com **auto-update** via GitHub Releases. Monorepo TypeScript em Docker.
-- **[OSA-projects](https://github.com/jotavsevla/OSA-projects)** — Fundamentos do byte ao índice: **serialização** de registros, empacotamento, **Árvore B** de ordem configurável e motor de busca com **índice invertido**. Computação é ordenada, serializada, sequencial, relacional — e é correlacionando as estruturas que o difícil vira simples.
+- **[OSA-projects](https://github.com/jotavsevla/OSA-projects)** — Hub acadêmico do registro ao índice: packing fixo/variável, persistência binária, BST, Árvore B e busca com índice invertido. Os READMEs registram também defeitos conhecidos e limites de memória.
+- **[CVRP Solver](https://github.com/jotavsevla/tec_heuristica)** — Estudo em C++17 de heurísticas para roteamento capacitado, com benchmarks CMT e auditoria da diferença entre o modelo Physarum pretendido e a seleção executada.
+- **[Algoritmos e Estruturas em C](https://github.com/jotavsevla/algoritmos_e_estrutura_de_dados_em_C)** — Listas, TADs, bitmasks, backtracking, pthreads, mochila e tabelas hash, documentados com complexidade e cuidados de alocação.
 
 ---
 
@@ -76,5 +79,5 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=jotavsevla-v2&color=58a6ff&style=flat-square&label=visitors" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=jotavsevla&color=58a6ff&style=flat-square&label=visitors" alt="Profile views"/>
 </p>
